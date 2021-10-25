@@ -6,7 +6,7 @@ import org.junit.Test;
 public class MyBinaryTreeTest {
 	
 	@Test
-	public void given3NumberWgenAddedToBinaryTreeShouldReturnSizeThree() {
+	public void given3NumberWhenAddedToBinaryTreeShouldReturnSizeThree() {
 		MyBinaryTree<Integer> myBinaryTree = new MyBinaryTree<>();
 		myBinaryTree.add(56);
 		myBinaryTree.add(30);
