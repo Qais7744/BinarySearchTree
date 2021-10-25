@@ -4,9 +4,9 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class MyBinaryTreeTest {
-	
+
 	@Test
-	public void given13NumberWhenAddedToBinaryTreeShouldReturnSizeThirteen() {
+	public void given13NumberWhenAddedToBinaryTreeShouldSearchNode() {
 		MyBinaryTree<Integer> myBinaryTree = new MyBinaryTree<>();
 		myBinaryTree.add(56);
 		myBinaryTree.add(30);
