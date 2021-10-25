@@ -13,6 +13,6 @@ public class MyBinaryNode<K extends Comparable<K>> {
 
 	@Override
 	public String toString() {
-		return "MyBinaryNode [key=" + key + ", left=" + left + ", right=" + right + "]";
+		return "MyBinaryNode [key = " + key + ", left = " + left + ", right = " + right + "]";
 	}
 }
